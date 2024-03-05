@@ -1,7 +1,24 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
 # ignore compiled files.
-/recipe-app/public/
+
+
+recipe-app/node_modules
+recipe-app/dist
+recipe-app/dist-ssr
+recipe-app/*.local
+
+# Editor directories and files
+recipe-app/.vscode/*
+recipe-app/!.vscode/extensions.json
+recipe-app/.idea
+recipe-app/.DS_Store
+recipe-app/*.suo
+recipe-app/*.ntvs*
+recipe-app/*.njsproj
+recipe-app/*.sln
+recipe-app/*.sw?
+
 
 # Logs
 
